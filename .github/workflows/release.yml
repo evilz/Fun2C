@@ -13,13 +13,12 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-dotnet@v1
         with:
-          dotnet-version: '6.0.x' 
-          include-prerelease: true
+          dotnet-version: 6.0.x
           source-url: https://nuget.pkg.github.com/evilz/index.json
         env:
           NUGET_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
-      - run: dotnet build --configuration Release Fun2C/Fun2C.csproj
+      - run: dotnet build --c Release Fun2C/Fun2C.csproj
       - name: Create the package
-        run: dotnet pack --configuration Release Fun2C/Fun2C.csproj
+        run: dotnet pack --c Release Fun2C/Fun2C.csproj
       - name: Publish the package to GPR
         run: dotnet nuget push Fun2C/bin/Release/*.nupkg
