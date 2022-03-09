@@ -18,4 +18,10 @@ jobs:
       - name: Build
         run: dotnet build -c Release --no-restore
       - name: Test
-        run: dotnet test -c Release --no-build --verbosity normal
+        run: dotnet test /p:AltCover=true -c Release --no-build --verbosity normal
+      - uses: codecov/codecov-action@v2
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }} # not required for public repos
+          files: ./Fun2C.Tests/coverage.xml
+          flags: unittests # optional
+          verbose: true # optional (default = false)
