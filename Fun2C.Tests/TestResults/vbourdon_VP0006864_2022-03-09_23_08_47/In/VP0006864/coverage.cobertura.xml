@@ -1,0 +1,756 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0.0684" branch-rate="0.0215" version="1.9" timestamp="1646863727" lines-covered="5" lines-valid="73" branches-covered="4" branches-valid="186">
+  <sources>
+    <source>C:\</source>
+  </sources>
+  <packages>
+    <package name="Fun2C" line-rate="0.0684" branch-rate="0.0215" complexity="194">
+      <classes>
+        <class name="Fun2C.Maybe`1" filename="DATA\Fun2C\Fun2C\Maybe.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="get_Nothing" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="7" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="Fun2C.Just`1" filename="DATA\Fun2C\Fun2C\Maybe.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="get_Data" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="17" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="17" branch="False" />
+          </lines>
+        </class>
+        <class name="Fun2C.Nothing`1" filename="DATA\Fun2C\Fun2C\Maybe.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="5" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="5" branch="False" />
+          </lines>
+        </class>
+        <class name="Fun2C.MaybeExt" filename="DATA\Fun2C\Fun2C\Maybe.cs" line-rate="0.030299999999999997" branch-rate="0.0222" complexity="185">
+          <methods>
+            <method name="ToMaybe" signature="(T)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="ToJust" signature="(T)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="7" branch="False" />
+              </lines>
+            </method>
+            <method name="Nothing" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="GetValue" signature="(Fun2C.Maybe`1&lt;T&gt;)" line-rate="0" branch-rate="0" complexity="6">
+              <lines>
+                <line number="20" hits="0" branch="True" condition-coverage="0% (0/6)">
+                  <conditions>
+                    <condition number="13" type="jump" coverage="0%" />
+                    <condition number="70" type="jump" coverage="0%" />
+                    <condition number="155" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name="GetValueOrThrow" signature="(Fun2C.Maybe`1&lt;T&gt;)" line-rate="0" branch-rate="0" complexity="6">
+              <lines>
+                <line number="21" hits="0" branch="True" condition-coverage="0% (0/6)">
+                  <conditions>
+                    <condition number="13" type="jump" coverage="0%" />
+                    <condition number="70" type="jump" coverage="0%" />
+                    <condition number="155" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name="IsJust" signature="(Fun2C.Maybe`1&lt;T&gt;)" line-rate="0" branch-rate="0" complexity="6">
+              <lines>
+                <line number="24" hits="0" branch="True" condition-coverage="0% (0/6)">
+                  <conditions>
+                    <condition number="13" type="jump" coverage="0%" />
+                    <condition number="68" type="jump" coverage="0%" />
+                    <condition number="139" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name="IsNone" signature="(Fun2C.Maybe`1&lt;T&gt;)" line-rate="0" branch-rate="0" complexity="6">
+              <lines>
+                <line number="27" hits="0" branch="True" condition-coverage="0% (0/6)">
+                  <conditions>
+                    <condition number="13" type="jump" coverage="0%" />
+                    <condition number="68" type="jump" coverage="0%" />
+                    <condition number="139" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name="DefaultValue" signature="(Fun2C.Maybe`1&lt;T&gt;,T)" line-rate="0" branch-rate="0" complexity="6">
+              <lines>
+                <line number="29" hits="0" branch="True" condition-coverage="0% (0/6)">
+                  <conditions>
+                    <condition number="13" type="jump" coverage="0%" />
+                    <condition number="70" type="jump" coverage="0%" />
+                    <condition number="148" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name="DefaultWith" signature="(Fun2C.Maybe`1&lt;T&gt;,System.Func`1&lt;T&gt;)" line-rate="0" branch-rate="0" complexity="6">
+              <lines>
+                <line number="31" hits="0" branch="True" condition-coverage="0% (0/6)">
+                  <conditions>
+                    <condition number="13" type="jump" coverage="0%" />
+                    <condition number="70" type="jump" coverage="0%" />
+                    <condition number="153" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name="OrElse" signature="(Fun2C.Maybe`1&lt;T&gt;,Fun2C.Maybe`1&lt;T&gt;)" line-rate="0" branch-rate="0" complexity="6">
+              <lines>
+                <line number="33" hits="0" branch="True" condition-coverage="0% (0/6)">
+                  <conditions>
+                    <condition number="13" type="jump" coverage="0%" />
+                    <condition number="68" type="jump" coverage="0%" />
+                    <condition number="139" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name="OrElseWith" signature="(Fun2C.Maybe`1&lt;T&gt;,System.Func`1&lt;Fun2C.Maybe`1&lt;T&gt;&gt;)" line-rate="0" branch-rate="0" complexity="6">
+              <lines>
+                <line number="35" hits="0" branch="True" condition-coverage="0% (0/6)">
+                  <conditions>
+                    <condition number="13" type="jump" coverage="0%" />
+                    <condition number="68" type="jump" coverage="0%" />
+                    <condition number="144" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name="Count" signature="(Fun2C.Maybe`1&lt;T&gt;,T)" line-rate="0" branch-rate="0" complexity="6">
+              <lines>
+                <line number="37" hits="0" branch="True" condition-coverage="0% (0/6)">
+                  <conditions>
+                    <condition number="13" type="jump" coverage="0%" />
+                    <condition number="68" type="jump" coverage="0%" />
+                    <condition number="139" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name="Fold" signature="(Fun2C.Maybe`1&lt;T&gt;,System.Func`3&lt;TState,T,TState&gt;,TState)" line-rate="0" branch-rate="0" complexity="6">
+              <lines>
+                <line number="39" hits="0" branch="True" condition-coverage="0% (0/6)">
+                  <conditions>
+                    <condition number="13" type="jump" coverage="0%" />
+                    <condition number="70" type="jump" coverage="0%" />
+                    <condition number="155" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name="FoldBack" signature="(Fun2C.Maybe`1&lt;T&gt;,System.Func`3&lt;T,TState,TState&gt;,TState)" line-rate="0" branch-rate="0" complexity="6">
+              <lines>
+                <line number="41" hits="0" branch="True" condition-coverage="0% (0/6)">
+                  <conditions>
+                    <condition number="13" type="jump" coverage="0%" />
+                    <condition number="70" type="jump" coverage="0%" />
+                    <condition number="155" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name="Exists" signature="(Fun2C.Maybe`1&lt;T&gt;,System.Func`2&lt;T,System.Boolean&gt;)" line-rate="0" branch-rate="0" complexity="6">
+              <lines>
+                <line number="44" hits="0" branch="True" condition-coverage="0% (0/6)">
+                  <conditions>
+                    <condition number="13" type="jump" coverage="0%" />
+                    <condition number="70" type="jump" coverage="0%" />
+                    <condition number="154" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name="ForAll" signature="(Fun2C.Maybe`1&lt;T&gt;,System.Func`2&lt;T,System.Boolean&gt;)" line-rate="0" branch-rate="0" complexity="6">
+              <lines>
+                <line number="46" hits="0" branch="True" condition-coverage="0% (0/6)">
+                  <conditions>
+                    <condition number="13" type="jump" coverage="0%" />
+                    <condition number="70" type="jump" coverage="0%" />
+                    <condition number="154" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name="Contains" signature="(Fun2C.Maybe`1&lt;T&gt;,T)" line-rate="0" branch-rate="0" complexity="6">
+              <lines>
+                <line number="49" hits="0" branch="True" condition-coverage="0% (0/6)">
+                  <conditions>
+                    <condition number="13" type="jump" coverage="0%" />
+                    <condition number="70" type="jump" coverage="0%" />
+                    <condition number="168" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name="Iterate" signature="(Fun2C.Maybe`1&lt;T&gt;,System.Action`1&lt;T&gt;)" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="51" hits="0" branch="False" />
+                <line number="52" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="38" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="53" hits="0" branch="False" />
+                <line number="54" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Map" signature="(Fun2C.Maybe`1&lt;T&gt;,System.Func`2&lt;T,U&gt;)" line-rate="0" branch-rate="0" complexity="6">
+              <lines>
+                <line number="56" hits="0" branch="True" condition-coverage="0% (0/6)">
+                  <conditions>
+                    <condition number="13" type="jump" coverage="0%" />
+                    <condition number="70" type="jump" coverage="0%" />
+                    <condition number="163" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name="Map2" signature="(Fun2C.Maybe`1&lt;T&gt;,Fun2C.Maybe`1&lt;T&gt;,System.Func`3&lt;T,T,U&gt;)" line-rate="0" branch-rate="0" complexity="8">
+              <lines>
+                <line number="59" hits="0" branch="True" condition-coverage="0% (0/6)">
+                  <conditions>
+                    <condition number="13" type="jump" coverage="0%" />
+                    <condition number="70" type="jump" coverage="0%" />
+                    <condition number="114" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="60" hits="0" branch="False" />
+                <line number="61" hits="0" branch="False" />
+                <line number="62" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="213" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="63" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Map3" signature="(Fun2C.Maybe`1&lt;T&gt;,Fun2C.Maybe`1&lt;T&gt;,Fun2C.Maybe`1&lt;T&gt;,System.Func`4&lt;T,T,T,U&gt;)" line-rate="0" branch-rate="0" complexity="10">
+              <lines>
+                <line number="66" hits="0" branch="True" condition-coverage="0% (0/8)">
+                  <conditions>
+                    <condition number="13" type="jump" coverage="0%" />
+                    <condition number="70" type="jump" coverage="0%" />
+                    <condition number="117" type="jump" coverage="0%" />
+                    <condition number="161" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="67" hits="0" branch="False" />
+                <line number="68" hits="0" branch="False" />
+                <line number="69" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="266" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="70" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Bind" signature="(Fun2C.Maybe`1&lt;T&gt;,System.Func`2&lt;T,Fun2C.Maybe`1&lt;U&gt;&gt;)" line-rate="0" branch-rate="0" complexity="6">
+              <lines>
+                <line number="72" hits="0" branch="True" condition-coverage="0% (0/6)">
+                  <conditions>
+                    <condition number="13" type="jump" coverage="0%" />
+                    <condition number="70" type="jump" coverage="0%" />
+                    <condition number="158" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name="Flatten" signature="(Fun2C.Maybe`1&lt;T&gt;)" line-rate="1" branch-rate="0.6666" complexity="6">
+              <lines>
+                <line number="74" hits="8" branch="True" condition-coverage="66.66% (4/6)">
+                  <conditions>
+                    <condition number="13" type="jump" coverage="50%" />
+                    <condition number="70" type="jump" coverage="100%" />
+                    <condition number="157" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name="Where" signature="(Fun2C.Maybe`1&lt;T&gt;,System.Func`2&lt;T,System.Boolean&gt;)" line-rate="0" branch-rate="0" complexity="8">
+              <lines>
+                <line number="77" hits="0" branch="True" condition-coverage="0% (0/8)">
+                  <conditions>
+                    <condition number="15" type="jump" coverage="0%" />
+                    <condition number="72" type="jump" coverage="0%" />
+                    <condition number="134" type="jump" coverage="0%" />
+                    <condition number="209" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name="ToArray" signature="(Fun2C.Maybe`1&lt;T&gt;)" line-rate="0" branch-rate="0" complexity="6">
+              <lines>
+                <line number="79" hits="0" branch="True" condition-coverage="0% (0/6)">
+                  <conditions>
+                    <condition number="13" type="jump" coverage="0%" />
+                    <condition number="70" type="jump" coverage="0%" />
+                    <condition number="165" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name="ToList" signature="(Fun2C.Maybe`1&lt;T&gt;)" line-rate="0" branch-rate="0" complexity="6">
+              <lines>
+                <line number="81" hits="0" branch="True" condition-coverage="0% (0/6)">
+                  <conditions>
+                    <condition number="13" type="jump" coverage="0%" />
+                    <condition number="70" type="jump" coverage="0%" />
+                    <condition number="164" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name="ToNullable" signature="(Fun2C.Maybe`1&lt;T&gt;)" line-rate="0" branch-rate="0" complexity="6">
+              <lines>
+                <line number="83" hits="0" branch="True" condition-coverage="0% (0/6)">
+                  <conditions>
+                    <condition number="13" type="jump" coverage="0%" />
+                    <condition number="70" type="jump" coverage="0%" />
+                    <condition number="161" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name="OfNullable" signature="(System.Nullable`1&lt;T&gt;)" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="85" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="19" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name="OfObj" signature="(T)" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="87" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="21" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name="ToObj" signature="(Fun2C.Maybe`1&lt;T&gt;)" line-rate="0" branch-rate="0" complexity="6">
+              <lines>
+                <line number="89" hits="0" branch="True" condition-coverage="0% (0/6)">
+                  <conditions>
+                    <condition number="16" type="jump" coverage="0%" />
+                    <condition number="76" type="jump" coverage="0%" />
+                    <condition number="168" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name="ToEnumerable" signature="(Fun2C.Maybe`1&lt;T&gt;)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="92" hits="0" branch="False" />
+                <line number="93" hits="0" branch="False" />
+                <line number="98" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Merge" signature="(Fun2C.Maybe`1&lt;T&gt;,Fun2C.Maybe`1&lt;U&gt;)" line-rate="0" branch-rate="0" complexity="8">
+              <lines>
+                <line number="104" hits="0" branch="True" condition-coverage="0% (0/6)">
+                  <conditions>
+                    <condition number="16" type="jump" coverage="0%" />
+                    <condition number="76" type="jump" coverage="0%" />
+                    <condition number="120" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="105" hits="0" branch="False" />
+                <line number="106" hits="0" branch="False" />
+                <line number="107" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="224" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="108" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Try" signature="(System.Func`1&lt;T&gt;)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="111" hits="0" branch="False" />
+                <line number="112" hits="0" branch="False" />
+                <line number="113" hits="0" branch="False" />
+                <line number="115" hits="0" branch="False" />
+                <line number="116" hits="0" branch="False" />
+                <line number="118" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Match" signature="(Fun2C.Maybe`1&lt;T&gt;,System.Action`1&lt;T&gt;,System.Action)" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="121" hits="0" branch="False" />
+                <line number="122" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="44" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="123" hits="0" branch="False" />
+                <line number="125" hits="0" branch="False" />
+                <line number="126" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Match" signature="(Fun2C.Maybe`1&lt;T&gt;,System.Func`2&lt;T,TRet&gt;,System.Func`1&lt;TRet&gt;)" line-rate="0" branch-rate="0" complexity="6">
+              <lines>
+                <line number="129" hits="0" branch="True" condition-coverage="0% (0/4)">
+                  <conditions>
+                    <condition number="16" type="jump" coverage="0%" />
+                    <condition number="76" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="130" hits="0" branch="False" />
+                <line number="131" hits="0" branch="False" />
+                <line number="132" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="171" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="133" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="IsSome" signature="(Fun2C.Maybe`1&lt;T&gt;)" line-rate="0" branch-rate="0" complexity="6">
+              <lines>
+                <line number="149" hits="0" branch="True" condition-coverage="0% (0/6)">
+                  <conditions>
+                    <condition number="16" type="jump" coverage="0%" />
+                    <condition number="74" type="jump" coverage="0%" />
+                    <condition number="151" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="15" hits="0" branch="False" />
+            <line number="16" hits="7" branch="False" />
+            <line number="18" hits="0" branch="False" />
+            <line number="20" hits="0" branch="True" condition-coverage="0% (0/6)">
+              <conditions>
+                <condition number="13" type="jump" coverage="0%" />
+                <condition number="70" type="jump" coverage="0%" />
+                <condition number="155" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="21" hits="0" branch="True" condition-coverage="0% (0/6)">
+              <conditions>
+                <condition number="13" type="jump" coverage="0%" />
+                <condition number="70" type="jump" coverage="0%" />
+                <condition number="155" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="24" hits="0" branch="True" condition-coverage="0% (0/6)">
+              <conditions>
+                <condition number="13" type="jump" coverage="0%" />
+                <condition number="68" type="jump" coverage="0%" />
+                <condition number="139" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="27" hits="0" branch="True" condition-coverage="0% (0/6)">
+              <conditions>
+                <condition number="13" type="jump" coverage="0%" />
+                <condition number="68" type="jump" coverage="0%" />
+                <condition number="139" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="29" hits="0" branch="True" condition-coverage="0% (0/6)">
+              <conditions>
+                <condition number="13" type="jump" coverage="0%" />
+                <condition number="70" type="jump" coverage="0%" />
+                <condition number="148" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="31" hits="0" branch="True" condition-coverage="0% (0/6)">
+              <conditions>
+                <condition number="13" type="jump" coverage="0%" />
+                <condition number="70" type="jump" coverage="0%" />
+                <condition number="153" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="33" hits="0" branch="True" condition-coverage="0% (0/6)">
+              <conditions>
+                <condition number="13" type="jump" coverage="0%" />
+                <condition number="68" type="jump" coverage="0%" />
+                <condition number="139" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="35" hits="0" branch="True" condition-coverage="0% (0/6)">
+              <conditions>
+                <condition number="13" type="jump" coverage="0%" />
+                <condition number="68" type="jump" coverage="0%" />
+                <condition number="144" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="37" hits="0" branch="True" condition-coverage="0% (0/6)">
+              <conditions>
+                <condition number="13" type="jump" coverage="0%" />
+                <condition number="68" type="jump" coverage="0%" />
+                <condition number="139" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="39" hits="0" branch="True" condition-coverage="0% (0/6)">
+              <conditions>
+                <condition number="13" type="jump" coverage="0%" />
+                <condition number="70" type="jump" coverage="0%" />
+                <condition number="155" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="41" hits="0" branch="True" condition-coverage="0% (0/6)">
+              <conditions>
+                <condition number="13" type="jump" coverage="0%" />
+                <condition number="70" type="jump" coverage="0%" />
+                <condition number="155" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="44" hits="0" branch="True" condition-coverage="0% (0/6)">
+              <conditions>
+                <condition number="13" type="jump" coverage="0%" />
+                <condition number="70" type="jump" coverage="0%" />
+                <condition number="154" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="46" hits="0" branch="True" condition-coverage="0% (0/6)">
+              <conditions>
+                <condition number="13" type="jump" coverage="0%" />
+                <condition number="70" type="jump" coverage="0%" />
+                <condition number="154" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="49" hits="0" branch="True" condition-coverage="0% (0/6)">
+              <conditions>
+                <condition number="13" type="jump" coverage="0%" />
+                <condition number="70" type="jump" coverage="0%" />
+                <condition number="168" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="51" hits="0" branch="False" />
+            <line number="52" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="38" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="53" hits="0" branch="False" />
+            <line number="54" hits="0" branch="False" />
+            <line number="56" hits="0" branch="True" condition-coverage="0% (0/6)">
+              <conditions>
+                <condition number="13" type="jump" coverage="0%" />
+                <condition number="70" type="jump" coverage="0%" />
+                <condition number="163" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="59" hits="0" branch="True" condition-coverage="0% (0/6)">
+              <conditions>
+                <condition number="13" type="jump" coverage="0%" />
+                <condition number="70" type="jump" coverage="0%" />
+                <condition number="114" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="60" hits="0" branch="False" />
+            <line number="61" hits="0" branch="False" />
+            <line number="62" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="213" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="63" hits="0" branch="False" />
+            <line number="66" hits="0" branch="True" condition-coverage="0% (0/8)">
+              <conditions>
+                <condition number="13" type="jump" coverage="0%" />
+                <condition number="70" type="jump" coverage="0%" />
+                <condition number="117" type="jump" coverage="0%" />
+                <condition number="161" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="67" hits="0" branch="False" />
+            <line number="68" hits="0" branch="False" />
+            <line number="69" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="266" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="70" hits="0" branch="False" />
+            <line number="72" hits="0" branch="True" condition-coverage="0% (0/6)">
+              <conditions>
+                <condition number="13" type="jump" coverage="0%" />
+                <condition number="70" type="jump" coverage="0%" />
+                <condition number="158" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="74" hits="8" branch="True" condition-coverage="66.66% (4/6)">
+              <conditions>
+                <condition number="13" type="jump" coverage="50%" />
+                <condition number="70" type="jump" coverage="100%" />
+                <condition number="157" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="77" hits="0" branch="True" condition-coverage="0% (0/8)">
+              <conditions>
+                <condition number="15" type="jump" coverage="0%" />
+                <condition number="72" type="jump" coverage="0%" />
+                <condition number="134" type="jump" coverage="0%" />
+                <condition number="209" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="79" hits="0" branch="True" condition-coverage="0% (0/6)">
+              <conditions>
+                <condition number="13" type="jump" coverage="0%" />
+                <condition number="70" type="jump" coverage="0%" />
+                <condition number="165" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="81" hits="0" branch="True" condition-coverage="0% (0/6)">
+              <conditions>
+                <condition number="13" type="jump" coverage="0%" />
+                <condition number="70" type="jump" coverage="0%" />
+                <condition number="164" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="83" hits="0" branch="True" condition-coverage="0% (0/6)">
+              <conditions>
+                <condition number="13" type="jump" coverage="0%" />
+                <condition number="70" type="jump" coverage="0%" />
+                <condition number="161" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="85" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="19" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="87" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="21" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="89" hits="0" branch="True" condition-coverage="0% (0/6)">
+              <conditions>
+                <condition number="16" type="jump" coverage="0%" />
+                <condition number="76" type="jump" coverage="0%" />
+                <condition number="168" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="92" hits="0" branch="False" />
+            <line number="93" hits="0" branch="False" />
+            <line number="98" hits="0" branch="False" />
+            <line number="104" hits="0" branch="True" condition-coverage="0% (0/6)">
+              <conditions>
+                <condition number="16" type="jump" coverage="0%" />
+                <condition number="76" type="jump" coverage="0%" />
+                <condition number="120" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="105" hits="0" branch="False" />
+            <line number="106" hits="0" branch="False" />
+            <line number="107" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="224" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="108" hits="0" branch="False" />
+            <line number="111" hits="0" branch="False" />
+            <line number="112" hits="0" branch="False" />
+            <line number="113" hits="0" branch="False" />
+            <line number="115" hits="0" branch="False" />
+            <line number="116" hits="0" branch="False" />
+            <line number="118" hits="0" branch="False" />
+            <line number="121" hits="0" branch="False" />
+            <line number="122" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="44" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="123" hits="0" branch="False" />
+            <line number="125" hits="0" branch="False" />
+            <line number="126" hits="0" branch="False" />
+            <line number="129" hits="0" branch="True" condition-coverage="0% (0/4)">
+              <conditions>
+                <condition number="16" type="jump" coverage="0%" />
+                <condition number="76" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="130" hits="0" branch="False" />
+            <line number="131" hits="0" branch="False" />
+            <line number="132" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="171" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="133" hits="0" branch="False" />
+            <line number="149" hits="0" branch="True" condition-coverage="0% (0/6)">
+              <conditions>
+                <condition number="16" type="jump" coverage="0%" />
+                <condition number="74" type="jump" coverage="0%" />
+                <condition number="151" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+          </lines>
+        </class>
+        <class name="Fun2C.MaybeExt/&lt;&gt;c__DisplayClass30_0`1/&lt;&lt;ToEnumerable&gt;g___|0&gt;d" filename="DATA\Fun2C\Fun2C\Maybe.cs" line-rate="0" branch-rate="0" complexity="6">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="6">
+              <lines>
+                <line number="94" hits="0" branch="True" condition-coverage="0% (0/4)">
+                  <conditions>
+                    <condition number="8" type="jump" coverage="0%" />
+                    <condition number="14" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="95" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="83" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="96" hits="0" branch="False" />
+                <line number="97" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="94" hits="0" branch="True" condition-coverage="0% (0/4)">
+              <conditions>
+                <condition number="8" type="jump" coverage="0%" />
+                <condition number="14" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="95" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="83" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="96" hits="0" branch="False" />
+            <line number="97" hits="0" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
