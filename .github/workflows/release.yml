@@ -17,8 +17,8 @@ jobs:
           source-url: https://nuget.pkg.github.com/evilz/index.json
         env:
           NUGET_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
-      - run: dotnet build --c Release Fun2C/Fun2C.csproj
+      - run: dotnet build -c Release Fun2C/Fun2C.csproj
       - name: Create the package
-        run: dotnet pack --c Release Fun2C/Fun2C.csproj
+        run: dotnet pack -c Release Fun2C/Fun2C.csproj
       - name: Publish the package to GPR
         run: dotnet nuget push Fun2C/bin/Release/*.nupkg
