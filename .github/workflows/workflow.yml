@@ -18,10 +18,10 @@ jobs:
       - name: Build
         run: dotnet build -c Release --no-restore
       - name: Test
-        run: dotnet test /p:AltCover=true --collect:"XPlat Code Coverage" --results-directory TestResults/ --logger "trx;LogFileName=unittests.trx" -c Release --no-build --verbosity normal 
+        run: dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover -c Release --no-build --verbosity normal
       - uses: codecov/codecov-action@v2
         with:
           token: ${{ secrets.CODECOV_TOKEN }} # not required for public repos
-          files: ./Fun2C.Tests/coverage.xml
+          files: ./Fun2C.Tests/coverage.opencover.xml
           flags: unittests # optional
           verbose: true # optional (default = false)

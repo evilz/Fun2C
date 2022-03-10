@@ -1,0 +1,3 @@
+ignore:
+  - "/Fun2C.Tests/"  # ignore folders and all its contents
+  - "**Test*.cs"       # wildcards accepted
