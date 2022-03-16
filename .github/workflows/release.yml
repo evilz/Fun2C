@@ -22,6 +22,6 @@ jobs:
         run: dotnet pack -c Release Fun2C/Fun2C.csproj
 
       - name: Publish the package to nuget
-        run: dotnet nuget push foo.nupkg -k ${{secrets.NUGET_KEY}} -s https://api.nuget.org/v3/index.json
+        run: dotnet nuget push Fun2C/bin/Release/*.nupkg -k ${{secrets.NUGET_KEY}} -s https://api.nuget.org/v3/index.json
         
         #dotnet nuget push Fun2C/bin/Release/*.nupkg
