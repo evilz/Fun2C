@@ -1,5 +1,13 @@
 name: Release dotnet package
 on:
+  workflow_dispatch:
+    inputs:
+      publishNuget:
+        description: 'Publish to nuget'
+        type: boolean
+        required: true
+        default: true
+      
   release:
     types: [created]
 
