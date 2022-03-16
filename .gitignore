@@ -38,3 +38,5 @@ msbuild.wrn
 Fun2C.Tests/coverage.xml
 .ionide/
 *coverage.*xml
+
+.fake
